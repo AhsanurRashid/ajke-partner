@@ -1,0 +1,40 @@
+@import 'tailwindcss/base';
+/* @import "./base.pcss"; */
+
+@import 'tailwindcss/components';
+/* @import "./components.pcss"; */
+
+@import 'tailwindcss/utilities';
+/* @import "./utilities.pcss"; */
+
+/* width */
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+/* Handle on hover */
+::-webkit-scrollbar-thumb {
+  @apply bg-gray-200;
+  border-radius: 10px;
+}
+
+.page-component-rapper {
+  @apply container mx-auto md:pt-0 pt-20 md:pb-0 pb-10;
+}
+
+.page-section {
+}
+
+.page-container {
+  @apply container mx-auto;
+}
+
+.page-row {
+  @apply grid gap-4;
+}
